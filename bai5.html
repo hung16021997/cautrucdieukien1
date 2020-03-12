@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai5</title>
+</head>
+<body>
+<script>
+    let a = Number(prompt("điểm kiểm tra"));
+    let b = Number(prompt("điểm giữa kỳ"));
+    let c = Number(prompt("điểm cuối kỳ"));
+    let z = (a + b + c) / 3;
+    if (z >= 8) {
+        document.write("giỏi");
+    }else if (z >= 6.5){
+        document.write("khá");
+    }else if (z >= 5){
+        document.write("trung bình");
+    }else  if (z >= 3.5){
+        document.write("yếu");
+    }else if (z < 3.5){
+        document.write("kém")
+    }
+
+</script>
+</body>
+</html>
